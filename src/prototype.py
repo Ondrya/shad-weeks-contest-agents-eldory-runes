@@ -98,6 +98,7 @@ def main():
     
     # Формирование ответа
     answer_df = pd.DataFrame({
+        'rune': test['rune'].values,
         'spell': test_predictions
     })
     
